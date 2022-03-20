@@ -26,7 +26,10 @@ interface  IdProvider {
 fun main() {
 //    val book = Book()
 //    Book class가 private 이라 사용 불가함.
+
     val book = Book.create()
+//    create 함수는 Book 클래스 내에 있지만,
+//    companion object의 내부 메소드 이므로 가져올 수 있었음.
 
     val bookId = Book.BookFactory.getId()
     println("${book.id} ${book.name}")
