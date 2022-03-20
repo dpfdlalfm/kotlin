@@ -1,6 +1,6 @@
 package com.example.practice1
-
-//Singleton Pattern : 실행할 때 한번만 객체 생성 후 다시 객체 생성 안함.
+// 일반 클래스가 아닌 오브젝트의 장점 : Singleton Pattern
+// Singleton Pattern : 실행할 때 한번만 객체 생성 후 다시 객체 생성 안함.
 // 메모리 낭비가 없음.
 object CarFactory {
     val cars = mutableListOf<Car>()
