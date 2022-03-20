@@ -40,6 +40,8 @@ fun ignoreNulls(str : String?) {
 
     val email : String?= "dpfdlalfm@naver.com"
     email?.let{
+        // email 변수가 null 값이 아니면 괄호 안의 식을 실행.
+        // null 값이면 실행은 되는데 무시함.
         println("my email is ${email}")
     }
 }
