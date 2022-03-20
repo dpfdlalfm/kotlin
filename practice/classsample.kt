@@ -27,6 +27,9 @@ open class Human (val name : String = "David") {
 class Korean : Human() {
     override fun singASong() {
         super.singASong()
+        // super를 이용해 기존의 singAsong 메소드를 상속받음.
+        // print 결과 값 : lalala와 라라랄랄이 같이 출력됨.
+        
         println("라라랄랄")
         println("my name is : ${name}")
    }
