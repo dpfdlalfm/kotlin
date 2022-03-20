@@ -1,4 +1,6 @@
 package com.example.practice1
+// 데이터 클래스와 일반 클래스의 차이점.
+
 
 data class Ticket(val companyName : String, val name : String, var date : String, var seatNumber : Int)
 // toString(), hashcode(), equals(), copy() 가 data class를 이용하면 자동 생성됨.
